@@ -1,8 +1,4 @@
 
-
-## ✅ README.md Template
-
-````markdown
 # 🚀 Multi-Agent AI System – Google ADK
 
 ## 📌 Project Overview
@@ -46,10 +42,8 @@ Each agent enriches the previous agent's output and passes it forward.
 git clone https://github.com/your-username/multi-agent-ai-system.git
 cd multi-agent-ai-system
 cp .env.example .env
-````
-
+```
 Edit `.env` and add:
-
 ```env
 OPENWEATHERMAP_API_KEY=your_openweathermap_key
 ```
@@ -57,7 +51,6 @@ OPENWEATHERMAP_API_KEY=your_openweathermap_key
 ---
 
 ### 🛠 2. Install Dependencies
-
 ```bash
 pip install -r requirements.txt
 ```
@@ -65,7 +58,6 @@ pip install -r requirements.txt
 ---
 
 ### 🚀 3. Run the App
-
 ```bash
 streamlit run main.py
 ```
@@ -80,8 +72,7 @@ streamlit run main.py
 
 ## 📄 Evaluation Samples
 
-See [evaluation/test\_case\_1.json](evaluation/test_case_1.json) for a full run:
-
+See [evaluation/test_case_1.json](evaluation/test_case_1.json) for a full run:
 ```json
 {
   "goal": "Find the next SpaceX launch, check weather at that location, then summarize if it may be delayed.",
@@ -117,42 +108,14 @@ multi-agent-ai-system/
 ---
 
 ## 📌 Note
-
-* Keep `.env` file in `.gitignore`.
-* Use modular agent design to improve reusability.
-* Ensure final goal is logged and evaluated.
+- Keep `.env` file in `.gitignore`.
+- Use modular agent design to improve reusability.
+- Ensure final goal is logged and evaluated.
 
 ---
 
 ## 👩‍💻 Author
 
-**Muskaan Gupta**
-M.Tech (AI & DS), KIIT University
+**Muskaan Gupta**  
+M.Tech (AI & DS), KIIT University  
 GitHub: [github.com/Muskaanng](https://github.com/Muskaanng)
-
----
-
-```
-
----
-
-## 🗂️ Final ZIP Structure
-
-Once everything is ready, zip the folder like this:
-
-```
-
-multi-agent-ai-system.zip
-└── multi-agent-ai-system/
-├── main.py
-├── agents/
-├── evaluation/
-├── screenshots/
-├── docs/
-├── .env.example
-├── requirements.txt
-└── README.md
-
-```
-
-
