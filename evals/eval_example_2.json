@@ -1,0 +1,11 @@
+{
+  "goal": "Find next SpaceX launch, check if rain or storm may delay it.",
+  "expected_steps": [
+    "Planner: task breakdown",
+    "SpaceXAgent: fetch launch",
+    "WeatherAgent: fetch weather",
+    "SummaryAgent: identify weather risks"
+  ],
+  "result_summary": "Potential delay due to: stormy weather.",
+  "passed": true
+}
